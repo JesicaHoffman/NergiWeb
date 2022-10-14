@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  display: table;
+  clear: both;
+  margin-top: 7vh;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-right: 5vw;
+  color: #ffffff;
+}
+
+img {
+  float: left;
+}
+
+nav {
+  margin-left: 25vw;
+}

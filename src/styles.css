@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family:Gilroy;
+  src: url(assets/Fonts/gilroy-font/Gilroy-Black.woff);
+}
+
+h1 {
+  font-family: Gilroy;
+}
+
+*{
+  background-color: #272727;
+}
+
+.container{
+  margin-left: 6%;
+  margin-right: 6%;
+}
