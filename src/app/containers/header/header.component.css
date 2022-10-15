@@ -5,7 +5,6 @@ header {
   margin-top: 7vh;
 }
 
-
 li {
   width: 7vw;
   height: 3.2vh;
@@ -23,12 +22,11 @@ li {
   padding-top: 1vh;
 }
 
-li:hover{
+li:hover {
   border: 0.1vw solid white;
   border-radius: 15px;
   width: 7.1vw;
 }
-
 
 img {
   float: left;

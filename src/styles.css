@@ -1,9 +1,9 @@
 @font-face {
-  font-family:Gilroy;
+  font-family: Gilroy;
   src: url(assets/Fonts/gilroy-font/Gilroy-Regular.woff);
 }
 
-body{
+body {
   font-family: Gilroy;
   width: 90vw;
   background-color: #272727;
@@ -11,8 +11,7 @@ body{
   margin: 0px 0px;
 }
 
-
-.container{
+.container {
   margin-left: 6%;
   margin-right: 6%;
 }

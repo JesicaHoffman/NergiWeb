@@ -20,13 +20,10 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     ContactComponent,
     AboutComponent,
-    WorksComponent
+    WorksComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
