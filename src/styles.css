@@ -1,15 +1,16 @@
 @font-face {
   font-family:Gilroy;
-  src: url(assets/Fonts/gilroy-font/Gilroy-Black.woff);
+  src: url(assets/Fonts/gilroy-font/Gilroy-Regular.woff);
 }
 
-h1 {
+body{
   font-family: Gilroy;
+  width: 90vw;
+  background-color: #272727;
+  padding: 0px 0px;
+  margin: 0px 0px;
 }
 
-*{
-  background-color: #272727;
-}
 
 .container{
   margin-left: 6%;

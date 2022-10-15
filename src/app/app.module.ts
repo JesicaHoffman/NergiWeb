@@ -1,3 +1,6 @@
+import { WorksComponent } from './components/works/works.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './containers/footer/footer.component';
@@ -14,7 +17,10 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     FooterComponent,
     ServicesComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    AboutComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,

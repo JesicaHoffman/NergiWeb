@@ -5,17 +5,36 @@ header {
   margin-top: 7vh;
 }
 
+
 li {
+  width: 7vw;
+  height: 3.2vh;
+  text-align: center;
   list-style: none;
   float: left;
   margin-right: 5vw;
+  font-family: Gilroy;
+  line-height: 19px;
   color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  padding-top: 1vh;
 }
+
+li:hover{
+  border: 0.1vw solid white;
+  border-radius: 15px;
+  width: 7.1vw;
+}
+
 
 img {
   float: left;
+  cursor: pointer;
 }
 
 nav {
-  margin-left: 25vw;
+  margin-left: 22vw;
 }

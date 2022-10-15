@@ -1,0 +1,55 @@
+
+.green{
+  width: 100vw;
+  height: 230px;
+  background-color: #00CF89;
+  margin: 0px;
+  padding-top: 5vh;
+}
+.grey{
+  width: 100vw;
+  height: 60px;
+  background-color: #ffff;
+  margin: 0px;
+}
+
+
+.container{
+  color: #606060;
+}
+
+.info{
+  width: 40%;
+  float: right;
+}
+p{
+  display: inline-block;
+  width: 16vw;
+  margin-top: auto;
+  font-size: 20px;
+}
+
+.social-media{
+  margin-left: 45%;
+  margin-bottom: 40px;
+}
+
+#social{
+  margin-right: 3%;
+  cursor: pointer;
+}
+
+#derechos{
+  padding-top: 16px;
+  margin-left: 53vw;
+}
+
+.mail{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#contact-us{
+ cursor: pointer;
+}
+
