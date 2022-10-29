@@ -1,4 +1,30 @@
 .container{
   width: 100%;
   height: 90vh;
+  margin-top: 200px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 150px;
 }
+
+
+img{
+  width: 25vw;
+  height: 48vh;
+  position: absolute;
+}
+
+.works{
+  margin-top: 100px;
+}
+
+.work{
+  width: 680px;
+  height: 430px;
+  border: 4px solid white;
+  background-color: #272727;
+  border-radius: 100px;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+

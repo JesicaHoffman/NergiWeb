@@ -1,3 +1,13 @@
 <div class="container">
+<h1>Contacto</h1>
 
+<form [formGroup]="form" id="form" (submit)="handlesubmit($event)">
+  <label for="nombre">Nombre</label>
+  <input type="text" formControlName="nombre">
+  <br> <br>
+  <label for="mensaje">Mensaje</label>
+  <textarea formControlName="mensaje"> </textarea>
+  <br> <br>
+  <input type="submit" value="Enviar">
+</form>
 </div>

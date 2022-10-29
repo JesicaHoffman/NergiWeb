@@ -5,13 +5,9 @@
 
 body {
   font-family: Gilroy;
-  width: 90vw;
+  width: 100%;
   background-color: #272727;
   padding: 0px 0px;
   margin: 0px 0px;
 }
 
-.container {
-  margin-left: 6%;
-  margin-right: 6%;
-}
