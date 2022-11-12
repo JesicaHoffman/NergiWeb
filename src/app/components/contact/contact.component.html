@@ -1,13 +1,24 @@
+
+
 <div class="container">
-<h1>Contacto</h1>
+  <div>
+    <h1>Lets Connect for a Successful
+      Product Journey.</h1>
+  </div>
 
 <form [formGroup]="form" id="form" (submit)="handlesubmit($event)">
-  <label for="nombre">Nombre</label>
+  <label for="nombre">Name</label><br><br>
   <input type="text" formControlName="nombre">
   <br> <br>
-  <label for="mensaje">Mensaje</label>
-  <textarea formControlName="mensaje"> </textarea>
+  <label for="email">Email</label><br><br>
+  <input type="email" formControlName="email">
   <br> <br>
-  <input type="submit" value="Enviar">
+  <label for="telefono">Phone number</label><br><br>
+  <input type="text" formControlName="telefono">
+  <br> <br>
+  <label for="mensaje">Message</label><br>
+  <textarea formControlName="mensaje"> </textarea>
+  <br> <br><br>
+  <button class="btn" type="submit">Get in touch</button>
 </form>
 </div>
