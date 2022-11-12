@@ -10,7 +10,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -24,7 +24,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutComponent,
     WorksComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, HttpClientModule, BrowserAnimationsModule],
+  imports: [BrowserModule, ReactiveFormsModule, HttpClientModule, BrowserAnimationsModule,
+    RouterModule.forRoot([
+      { path: '', component: HomeComponent, data: {animation: 'HomePage'}},
+      { path: 'contact', component: ContactComponent, data: {animation: 'ContactPage'} },
+      { path: 'about', component: AboutComponent, data: {animation: 'AboutPage'} },
+      { path: 'works', component: WorksComponent, data: {animation: 'WorksPage'}},
+    ])],
   providers: [],
   bootstrap: [AppComponent],
 })
