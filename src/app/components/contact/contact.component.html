@@ -1,24 +1,35 @@
 
 
-<div class="container">
+<div *ngIf="!isloading" class="cont-ainer">
   <div>
     <h1>Lets Connect for a Successful
       Product Journey.</h1>
   </div>
 
 <form [formGroup]="form" id="form" (submit)="handlesubmit($event)">
-  <label for="nombre">Name</label><br><br>
-  <input type="text" formControlName="nombre">
+  <label for="nombre">Name</label><br>
+  <input class="inputActivo" type="text" formControlName="nombre">
   <br> <br>
-  <label for="email">Email</label><br><br>
-  <input type="email" formControlName="email">
+  <label for="email">Email</label><br>
+  <input class="inputActivo" type="email" formControlName="email">
   <br> <br>
-  <label for="telefono">Phone number</label><br><br>
-  <input type="text" formControlName="telefono">
+  <label for="telefono">Phone number</label><br>
+  <input class="inputActivo" type="text" formControlName="telefono">
   <br> <br>
   <label for="mensaje">Message</label><br>
-  <textarea formControlName="mensaje"> </textarea>
+  <input class="inputActivo" formControlName="mensaje">
   <br> <br><br>
   <button class="btn" type="submit">Get in touch</button>
 </form>
+<br>
+<div *ngIf="success" class="alert-success" role="alert">
+  Mensaje enviado exitosamente!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+</div>
+
+<div *ngIf="isloading"  class="cont-ainer">
+<img src="../assets/images/loading.gif" alt="this slowpoke moves"  width="100" />
 </div>

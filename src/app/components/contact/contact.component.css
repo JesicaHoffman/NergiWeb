@@ -1,9 +1,14 @@
-.container{
-
+.cont-ainer{
   height: 90vh;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 250px;
+}
+
+img{
+  margin-left: 40vw;
+  padding-top: 20vh;
+  width: 10%;
 }
 
 h1{
@@ -25,12 +30,22 @@ label{
 input, textarea{
   background-color: #272727;
   border-bottom: white;
+  font-size: 25px;
+  font-family: Gilroy;
   width: 50%;
+  height: 45px;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 2px solid white;
 }
+
+input, textarea.value{
+  color: white;
+  height: 45px;
+}
+
+
 
 .btn{
   width: 130px;
@@ -43,4 +58,16 @@ input, textarea{
   cursor: pointer;
   align-items: center;
   margin-left: 20%;
+}
+
+.inputActivo:focus{
+  outline: none;
+}
+
+.alert-success{
+  width: 30%;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 33%;
+  padding-right: 0.5vw;
 }

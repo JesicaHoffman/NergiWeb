@@ -9,7 +9,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
    form!: FormGroup | any;
-
+   isloading:boolean = false;
+   success:boolean = false;
   constructor(private formBuilder: FormBuilder, private http: HttpClient) {
    }
 
@@ -22,9 +23,11 @@ export class ContactComponent implements OnInit {
         telefono: ['', Validators.required],
       }
     )
+    console.log(this.form)
   }
 
    handlesubmit(event: any){
+    this.isloading = true;
     event.preventDefault();
     fetch('https://formspree.io/f/mlevpbdr',{
     method: "POST",
@@ -32,11 +35,13 @@ export class ContactComponent implements OnInit {
     body: new URLSearchParams(this.form.value).toString(),
   }
   ).then(e => {
-    alert("Mensaje enviado con exito");
     this.form.reset();
+    this.isloading = false;
+    this.success = true;
   }).catch( i => {
-    alert("Mensaje enviado con exito");
     this.form.reset();
+    this.isloading = false;
+    this.success = true;
   });
 
 

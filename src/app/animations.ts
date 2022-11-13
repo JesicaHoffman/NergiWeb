@@ -42,10 +42,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('200ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -66,10 +66,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('200ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -90,10 +90,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('200ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -114,10 +114,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('200ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -138,10 +138,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('200ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
