@@ -10,5 +10,17 @@
   margin-top: 200px;
 }
 
-
+.btn{
+  width: 300px;
+  height: 80px;
+  background-color: #00CF89;
+  margin-bottom: 100px;
+  color: #272727;
+  border-radius: 26px;
+  font-size: 32px;
+  font-weight: 300;
+  margin-left: 41%;
+  border: none;
+  cursor: pointer;
+}
 
