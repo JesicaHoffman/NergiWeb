@@ -1,3 +1,4 @@
+import { TranslateService } from '@ngx-translate/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
    obs:any;
 
-  constructor() { }
+  constructor( private translate: TranslateService) { }
 
   ngOnInit() {
 
 }
+
+changeLang(lang: string){
+  this.translate.use(lang);
+ }
 }

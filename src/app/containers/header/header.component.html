@@ -3,20 +3,23 @@
     <img routerLink="" src="../assets/images/nergi-logo-header.png" alt="200" />
     <ul class="nav-menu">
       <div class="item">
-        <li class="nav-menu-item" routerLink="">We Are Nergi</li>
+        <li class="nav-menu-item" routerLink="">{{"navbar.weare" | translate}}</li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="works">Study Cases</li>
+        <li class="nav-menu-item" routerLink="works">{{"navbar.ourworks" | translate}}</li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="about">About Us</li>
+        <li class="nav-menu-item" routerLink="about">{{"navbar.aboutus" | translate}}</li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="contact">Contact</li>
+        <li class="nav-menu-item" routerLink="contact">{{"navbar.contact" | translate}}</li>
       </div>
     </ul>
+    <div>
+      <h5 class="en" (click)="changeLang('en')">EN</h5>  <h5 class="es" (click)="changeLang('es')">ES</h5>
+    </div>
   </nav>
 </header>
