@@ -23,9 +23,18 @@ export class AppComponent {
     this.langs = translate.getLangs();
   }
 
+  onActivate() {
+    window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+     });
 
+ }
 
   prepareRoute(outlet: RouterOutlet) {
-    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+    this.onActivate();
+     // return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+
   }
 }
