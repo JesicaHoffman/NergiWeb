@@ -42,6 +42,7 @@ export function createTranslateLoader(http: HttpClient){
       { path: 'contact', component: ContactComponent, data: {animation: 'ContactPage'} },
       { path: 'about', component: AboutComponent, data: {animation: 'AboutPage'} },
       { path: 'works', component: WorksComponent, data: {animation: 'WorksPage'}},
+      { path: 'services', component: ServicesComponent, data: {animation: 'ServicesPage'}},
     ])],
   providers: [],
   bootstrap: [AppComponent],

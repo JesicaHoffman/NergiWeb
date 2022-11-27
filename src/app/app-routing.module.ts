@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent, data: {animation: 'AboutPage'} },
   { path: 'about', component: AboutComponent },
   { path: 'works', component: WorksComponent },
+  { path: 'services', component: ServicesComponent },
 ];
 
 @NgModule({

@@ -1,5 +1,5 @@
 .cont-ainer{
-  width: 100%;
+  max-width: 100vw;
   height: 90vh;
   margin-left: 6%;
   margin-right: 6%;
