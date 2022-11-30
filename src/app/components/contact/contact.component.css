@@ -1,6 +1,6 @@
 .cont-ainer{
   max-width: 100vw;
-  height: 90vh;
+  height: 118vh;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 250px;
@@ -16,12 +16,12 @@ img{
 h1{
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 form{
   margin-top: 100px;
-  margin-left: 30%;
+  margin-left: 22%;
 
 }
 
@@ -34,7 +34,7 @@ input, textarea{
   border-bottom: white;
   font-size: 25px;
   font-family: Gilroy;
-  width: 50%;
+  width: 70%;
   height: 45px;
   border-top: none;
   border-left: none;
@@ -44,7 +44,7 @@ input, textarea{
 
 input, textarea.value{
   color: white;
-  height: 45px;
+  height: 7vh;
 }
 
 
@@ -59,7 +59,7 @@ input, textarea.value{
   border: none;
   cursor: pointer;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 .inputActivo:focus{

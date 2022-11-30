@@ -4,20 +4,21 @@
   margin-top: 250px;
   background-image: url("fondo.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 
 .works{
-  margin-left: 13%;
+  margin-left: 11%;
 }
 
 .work{
-  width: 27%;
+  width: 24%;
   height: 63vh;
   border: 4px solid white;
   background-color: #272727;
-  border-radius: 100px;
+  border-radius: 5vw;
   display: inline-block;
   margin-left: 50px;
 }

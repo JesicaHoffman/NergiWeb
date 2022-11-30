@@ -33,7 +33,7 @@ export class AppComponent {
  }
 
   prepareRoute(outlet: RouterOutlet) {
-   // this.onActivate();
+    this.onActivate();
       return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
 
   }

@@ -18,10 +18,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -33,19 +33,20 @@ export const slideInAnimation =
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '100%'
+          width: '100%',
+          opacity: '50%'
         })
       ]),
       query(':enter', [
-        style({ left: '-100%' })
+        style({ left: '-100%',opacity: '100%' })
       ]),
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('200ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('200ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -66,10 +67,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -90,10 +91,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -114,10 +115,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -138,10 +139,10 @@ export const slideInAnimation =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('500ms ease-out', style({ left: '100%' }))
+          animate('500ms ease-out', style({ opacity: '50%' }))
         ]),
         query(':enter', [
-          animate('500ms ease-out', style({ left: '0%' }))
+          animate('500ms ease-out', style({ opacity: '100%' }))
         ])
       ]),
       query(':enter', animateChild()),

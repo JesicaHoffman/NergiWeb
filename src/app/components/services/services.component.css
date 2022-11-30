@@ -1,1 +1,28 @@
+.container{
+  max-width: 100vw;
+  height: 118vh;
+  margin-left: 20%;
+  margin-right: 6%;
+  margin-top: 250px;
+  color: white;
+}
 
+h1{
+  color: #00CE88;
+  font-weight: 800;
+}
+
+.line{
+  height: 2px;
+  background-color: #00CE88;
+  width: 10%;
+}
+
+img{
+  width: 20%;
+  height: 15vh;
+}
+
+.second{
+  padding-left: 27%;
+}
