@@ -15,7 +15,7 @@
 }
 
 .btn{
-  width: 250px;
+  width: 20vw;
   height: 8vh;
   background-color: #00CF89;
   margin-bottom: 100px;
@@ -23,7 +23,7 @@
   border-radius: 26px;
   font-size: 3wv;
   font-weight: 800;
-  margin-left: 40%;
+  margin-left: 32vw;
   border: none;
   cursor: pointer;
 }
