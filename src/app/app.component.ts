@@ -34,7 +34,7 @@ export class AppComponent {
 
   prepareRoute(outlet: RouterOutlet) {
     this.onActivate();
-      return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+     // return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
 
   }
 }
