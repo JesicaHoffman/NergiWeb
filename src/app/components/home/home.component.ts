@@ -26,6 +26,11 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+});
   }
 
 }

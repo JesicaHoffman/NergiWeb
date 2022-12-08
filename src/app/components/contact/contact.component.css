@@ -67,10 +67,13 @@ input, textarea.value{
   outline: none;
 }
 
-.alert-success{
-  width: 30%;
-  border-radius: 5px;
-  text-align: center;
-  margin-left: 33%;
-  padding-right: 0.5vw;
+.alertsuccess{
+  width: 260px;
+  color: #00CF89;
+  background-color: #272727;
+}
+
+.error{
+  width: 270px;
+  color: red;
 }

@@ -21,14 +21,16 @@
     <br />
     <br /><br />
     <button class="btn" type="submit">Get in touch</button>
+    <br /><br />
+    <div *ngIf="success" class="alertsuccess">
+      Mensaje enviado exitosamente!
+    </div>
+    <div *ngIf="error" class="error">{{ form.valid == false ? "Debes completar todos los campos" : ""}}</div>
+      <div *ngIf="emailError" class="error">{{ form.controls?.email?.status == "INVALID" ? "Debes ingresar un email valido" : "" }}</div>
   </form>
   <br />
-  <div *ngIf="success" class="alert-success" role="alert">
-    Mensaje enviado exitosamente!
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
+
+
 </div>
 
 <div *ngIf="isloading" class="cont-ainer">
