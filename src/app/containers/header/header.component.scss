@@ -153,21 +153,20 @@ svg.svg {
 
 @media screen and (max-width: 600px){
 
-
   img {
-    width: 35vw;
+    width: 24vw;
     margin-right: 0vw;
-    margin-left: 10vw;
+    margin-left: 12vw;
   }
 
   .button{
-    width: 20vw;
+    width: 25vw;
     margin-top: 0px;
     margin-left: 20vw;
   }
 
   svg.svg {
-    width: 10vw!important;
+    width: 14vw!important;
   }
 
   h5{
@@ -175,15 +174,16 @@ svg.svg {
   }
   .header{
     padding-top: 50px;
-    height: 43vh;
+    height: 30vh;
+    z-index: 1;
   }
 }
 
 @media screen and (max-width: 400px){
   img {
-    width: 35vw;
+    width: 24vw;
     margin-right: 0vw;
-    margin-left: 10vw;
+    margin-left: 13vw;
   }
 
   h5{
@@ -203,5 +203,13 @@ svg.svg {
 
   svg.svg {
     width: 10vw!important;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .button{
+    width: 20vw;
+    margin-top: 0px;
+    margin-left: 35vw;
   }
 }
