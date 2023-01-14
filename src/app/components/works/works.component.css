@@ -1,5 +1,77 @@
 .cont-ainer{
   max-width: 100vw;
-  height: 75vh;
+  height: 175vh;
   margin-top: 250px;
+}
+
+
+
+h1{
+  color: #00CE88;
+  font-weight: 800;
+  display: inline-block;
+  position: absolute;
+  margin-left: 2vw;
+  z-index: 0;
+}
+
+.line{
+  height: 2px;
+  background-color: #00CE88;
+  width: 70%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 1vh;
+  z-index: 0;
+}
+
+.image1{
+  margin-left: 12vw;
+  height: 35vh;
+  margin-top: 12vh;
+}
+
+.image2{
+  margin-left: 74vw;
+  height: 35vh;
+  margin-top: 12vh;
+}
+
+p, h5{
+  color: white;
+}
+
+p{
+  font-size: 1vw;
+  font-style: normal;
+  width: 26vw;
+  font-weight: 300;
+}
+
+
+.tittle{
+  color: white;
+  width: 98vw;
+  margin-top: 280px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 300;
+  margin-bottom: 120px;
+}
+
+.h1-2{
+  margin-left: 46vw;
+}
+
+.h1-3{
+  margin-left: 22.5vw;
+}
+
+.image3{
+  height: 20vh;
+}
+
+.second{
+  width: 10vw;
 }

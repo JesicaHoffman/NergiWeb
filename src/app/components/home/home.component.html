@@ -1,61 +1,42 @@
-<!-- <div class="container">
-  <img id="ilustracion" src="../assets/images/home-illustration.png" />
-  <div class="pack">
-    <h1>we are nergi,</h1>
-    <div id="line">
-      <img id="linea" src="../assets/images/line.png" />
-      <div id="second">we are</div>
-    </div>
-    <div id="third">developing futures</div>
-  </div>
-</div> -->
-
 <div class="cont" @enterState>
-  <img id="image-nergi" src="../assets/images/home-illustration.png">
-   <p class="firstParagraph">{{"we are nergi" | translate}},</p>
-  <img src="../assets/images/line.png" /><p class="secoondParagraph"> {{"we are" | translate}}</p>
-  <p class="thirdParagraph">{{"developing futures" | translate}}</p>
+  <img id="image-nergi" src="../assets/images/home-illustration.png" />
+  <p class="firstParagraph">{{ "we are nergi" | translate }},</p>
+  <img src="../assets/images/line.png" />
+  <p class="secoondParagraph">{{ "we are" | translate }}</p>
+  <p class="thirdParagraph">{{ "developing futures" | translate }}</p>
 </div>
 <div class="cont-ainer" @enterState>
-<h1 class="tittle">{{"Companies that trusted in us"| translate}}</h1>
-<div class="line"></div>
-<div class="contenedor">
-
-  <div class="works">
-    <div class="work">
-
-      <img class="johndeere" src="../assets/images/logo-johndeere.png" alt="50">
+  <h1 class="tittle">{{ "Companies that trusted in us" | translate }}</h1>
+  <div class="line"></div>
+  <div class="contenedor">
+    <div class="works">
+      <div class="work">
+        <img
+          class="johndeere"
+          src="../assets/images/logo-johndeere.png"
+          alt="50"
+        />
+      </div>
+      <div class="work">
+        <img class="woza" src="../assets/images/logo-wosa.png" alt="50" />
+      </div>
+      <div class="work">
+        <img class="corteva" src="../assets/images/logo-corteva.png" alt="50" />
+      </div>
     </div>
-    <div class="work"><img class="woza" src="../assets/images/logo-wosa.png" alt="50"></div>
-    <div class="work">  <img class="corteva" src="../assets/images/logo-corteva.png" alt="50"></div>
   </div>
-
-
+  <button class="btn" routerLink="works">{{ "more-works" | translate }}</button>
 </div>
-<!-- <div class="box1">
-<img class="johndeere" src="../assets/images/logo-johndeere.png" alt="50">
-</div>
-<div class="box1">
-  <img class="woza" src="../assets/images/logo-wosa.png" alt="50">
-  </div>
-  <div class="box1">
-    <img class="corteva" src="../assets/images/logo-corteva.png" alt="50">
-    </div> -->
-    <button class="btn" routerLink="works">{{"more-works" | translate}}</button>
-</div>
-<!--   <app-works></app-works> -->
 
-  <div class="cont-ainer" @enterState>
-
-
-
-
+<div class="cont-ainer" @enterState>
   <div class="tecnology-image">
-  <div class="tecnologies">
-  <h1>{{"Cutting Edge Technologies" | translate}}  {{"Deep Learning" | translate}}
-  - Edge Computing - IOT
-  - XR ({{"Augmented / Virtual Reality" | translate}})
-  </h1>
-</div>
-</div>
+    <div class="tecnologies">
+      <h1>
+        {{ "Cutting Edge Technologies" | translate }}
+        {{ "Deep Learning" | translate }} - Edge Computing - IOT - XR ({{
+          "Augmented / Virtual Reality" | translate
+        }})
+      </h1>
+    </div>
+  </div>
 </div>
