@@ -6,14 +6,89 @@
   margin-top: 150px;
 }
 
+.contenedor{
+  max-width: 100vw;
+  height: 160vh;
+}
+
 .tittle{
   font-style: normal;
   color: white;
-  margin-top: 300px;
+  margin-top: 280px;
   font-size: 60px;
   text-align: center;
   line-height: 38px;
   font-weight: 300;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+h1{
+  color: #00CE88;
+  font-weight: 800;
+  display: inline-block;
+  margin-left: 16vw;
+  width: 40vw;
+}
+
+.line{
+  height: 2px;
+  background-color: #00CE88;
+  width: 20%;
+  display: inline-block;
+  margin-top: 1vh;
+
+}
+
+.paragraph{
+  color: white;
+  font-size: 1vw;
+  font-weight: 300;
+}
+
+.bloque1{
+  display: inline-block;
+  width: 60vw;
+}
+
+.image1{
+  height: 30vh;
+  width: 9vw;
+  position: absolute;
+  margin-left: 30vw;
+}
+
+.bloque2{
+  border: 4px solid white;
+  background-color: #272727;
+  border-radius: 5vw;
+  width: 50vw;
+  height: 50vh;
+  margin-left: 28vw;
+  margin-top: 20vh;
+  position: absolute;
+}
+
+.image2{
+  height: 45vh;
+  width: 25vw;
+  position: absolute;
+  margin-left: 11vw;
+  margin-top: 48vh;
+}
+
+.texto1{
+  color: white;
+  width: 87%;
+  margin-top: 7vh;
+  margin-left: 3vw;
+  font-size: 1.1vw;
+}
+
+.texto2{
+  color: #00CF89;
+  width: 87%;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  font-size: 1.1vw;
 }
 
