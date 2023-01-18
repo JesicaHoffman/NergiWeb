@@ -29,6 +29,10 @@ h3, h5{
   margin-left: 4vw;
 }
 
+h3{
+  font-size: 1.3vw;
+}
+
 .line{
   height: 2px;
   background-color: #00CE88;
