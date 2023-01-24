@@ -1,3 +1,5 @@
+@import '_mixins';
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -81,6 +83,8 @@ h5{
   height: 6vh;
   box-shadow: none;
   border: none;
+  cursor: pointer;
+
 }
 
 .button:hover{
@@ -91,6 +95,34 @@ h5{
 svg.svg {
   width: 3vw!important;
   height: 5vh;
+}
+
+.desplegable{
+  color: #ffffff;
+  background-color: #272727;
+  @include flex ( column, nowrap, center, center);
+  opacity: 0;
+  height: 0vh;
+  pointer-events: none;
+  overflow: hidden;
+  transition: all .5s ease;
+  &.activo{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    height: 30vh;
+    pointer-events: auto;
+  }
+
+
+  .ul{
+   list-style: none;
+   @include flex ( row, wrap, flex-end, center);
+   flex-direction: column;
+  }
+  .li{
+    margin: 0 .5em;
+  }
 }
 
 @media screen and (max-width: 1280px){

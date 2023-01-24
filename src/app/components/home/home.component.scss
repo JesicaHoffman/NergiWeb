@@ -288,7 +288,7 @@ img{
     margin-top: 9%;
     width: 73%;
     margin-left: 9%;
-    height: 40vh;
+    height: 40%;
   }
 
   .firstParagraph{
@@ -309,7 +309,9 @@ img{
 
 }
 @media screen and (max-width: 400px){
-
+  #image-nergi{
+    height: 40%;
+  }
 }
   @media screen and (max-width: 300px){
     #image-nergi{

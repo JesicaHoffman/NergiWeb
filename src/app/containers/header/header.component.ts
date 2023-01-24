@@ -9,10 +9,17 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
    obs:any;
 
-  constructor( private translate: TranslateService) { }
+  constructor( private translate: TranslateService) {
+
+  }
 
   ngOnInit() {
+    const button = (document.querySelector('.button') as HTMLButtonElement);
+    const nav = (document.querySelector('.desplegable') as HTMLElement);
 
+    button.addEventListener('click', ():void => {
+      nav.classList.toggle('activo')
+    })
 }
 
 changeLang(lang: string){
