@@ -16,10 +16,15 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     const button = (document.querySelector('.button') as HTMLButtonElement);
     const nav = (document.querySelector('.desplegable') as HTMLElement);
+    const select = (document.querySelector('.ul') as HTMLElement);
 
     button.addEventListener('click', ():void => {
-      nav.classList.toggle('activo')
-    })
+      nav.classList.toggle('activo');
+    });
+
+    select.addEventListener('click', ():void => {
+      nav.classList.remove('activo')
+    });
 }
 
 changeLang(lang: string){

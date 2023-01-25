@@ -113,15 +113,24 @@ svg.svg {
     height: 30vh;
     pointer-events: auto;
   }
-
+  &.inactivo{
+    display: none;
+  }
 
   .ul{
    list-style: none;
+   padding: 0px 0px;
    @include flex ( row, wrap, flex-end, center);
    flex-direction: column;
   }
   .li{
     margin: 0 .5em;
+    margin-bottom: 2vh;
+    cursor: pointer;
+  }
+
+  .li:hover {
+    text-decoration: underline;
   }
 }
 

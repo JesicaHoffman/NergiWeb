@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { async } from 'rxjs';
 
 @Component({
   selector: 'app-contact',
@@ -26,7 +25,6 @@ export class ContactComponent implements OnInit {
         telefono: ['', Validators.required],
       }
     )
-    console.log(this.form)
   }
 
    handlesubmit(event: any){
