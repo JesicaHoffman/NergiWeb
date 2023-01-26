@@ -426,6 +426,10 @@ img{
     height: 6vh;
   }
 
+  .tecnologies{
+    padding-top: 4vh;
+  }
+
 }
 @media screen and (max-width: 400px){
   #image-nergi{
@@ -433,6 +437,14 @@ img{
   }
   .btn{
     width: 50vw;
+  }
+  .tecnology-image{
+    width: 90vw;
+    margin-left: 15%;
+  }
+
+  h1{
+    font-size: 5vw;
   }
 }
   @media screen and (max-width: 300px){
