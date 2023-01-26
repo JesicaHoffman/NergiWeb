@@ -217,11 +217,55 @@ img{
     background-size: contain;
     height: 70vh;
   }
+
+  .work{
+    height: 45vh;
+  }
+
+  .work1{
+    height: 45vh;
+  }
+
+  .johndeere{
+    margin-top: 14vh;
+  }
+
+  .woza{
+    margin-top: 14vh;
+  }
+
+  .corteva{
+    margin-top: 14vh;
+  }
 }
 @media screen and (max-width: 970px){
   .cont{
     height: 50vh;
   }
+
+  .work{
+    height: 40vh;
+  }
+
+  .work1{
+    height: 40vh;
+  }
+
+  .johndeere{
+    margin-top: 12vh;
+    height: 9vh;
+  }
+
+  .woza{
+    margin-top: 12vh;
+    height: 9vh;
+  }
+
+  .corteva{
+    margin-top: 12vh;
+    height: 9vh;
+  }
+
 }
 @media screen and (max-width: 767px){
   .cont{
@@ -276,6 +320,37 @@ img{
     margin-top: 2vh;
   }
 
+  .work{
+    margin-left: 25px;
+    height: 30vh;
+  }
+
+  .work1{
+    height: 30vh;
+  }
+
+  .johndeere{
+    margin-top: 8vh;
+  }
+
+  .woza{
+    margin-top: 8vh;
+  }
+
+  .corteva{
+    margin-top: 8vh;
+  }
+
+  .works{
+    margin-bottom: 50px;
+  }
+
+  .btn{
+    margin-bottom: 50px;
+  }
+  .tittle{
+    padding-bottom: 50px;
+  }
 
 }
 @media screen and (max-width: 600px){
@@ -307,10 +382,57 @@ img{
     z-index: 0;
   }
 
+  .tittle{
+    font-size: 6vw;
+  }
+
+  .work{
+    display: block;
+  }
+
+  .work1{
+    display: inherit;
+    width: 50vw;
+    margin-left: 18vw;
+    height: 25vh;
+    margin-bottom: 5vh;
+  }
+
+  .work{
+    display: inherit;
+    width: 50vw;
+    margin-left: 18vw;
+    height: 25vh;
+    margin-bottom: 5vh;
+  }
+
+  .johndeere{
+    margin-top: 7vh;
+    width: 25vw;
+  }
+
+  .woza{
+    margin-top: 7vh;
+    width: 22vw;
+  }
+
+  .corteva{
+    margin-top: 7vh;
+    width: 25vw;
+  }
+
+  .btn{
+    width: 30vw;
+    height: 6vh;
+  }
+
 }
 @media screen and (max-width: 400px){
   #image-nergi{
     height: 40%;
+  }
+  .btn{
+    width: 50vw;
   }
 }
   @media screen and (max-width: 300px){
