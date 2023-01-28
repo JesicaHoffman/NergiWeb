@@ -79,3 +79,108 @@ p{
 .bloque2{
   height: 65vh;
 }
+
+.image1-copy{
+  display: none;
+}
+
+
+@media screen and (max-width: 1280px){
+
+
+}
+@media screen and (max-width: 970px){
+.tittle{
+  margin-bottom: 10vh;
+  }
+
+  p{
+    font-size: 1.5vw;
+    }
+
+    .image1{
+     margin-top: 14vh;
+      }
+}
+@media screen and (max-width: 767px){
+
+}
+@media screen and (max-width: 600px){
+  .tittle{
+    font-size: 6vw;
+    margin-bottom: 7vh;
+    }
+    .bloque2{
+     height: 52vh;
+      }
+    .image1{
+      height: 30vh;
+      }
+      h1{
+        font-size: 2.2rem;
+        }
+        h5{
+          font-size: 1.5rem;
+          }
+          p{
+            font-size: 0.7rem;
+            width: 36vw;
+            }
+            .h1-2{
+              margin-left: 16vw;
+              }
+              .second{
+                width: 50vw;
+                }
+                .image2 {
+                  margin-left: 55vw;
+margin-top: 9vh;
+              }
+              .h1-3{
+                margin-left: 16vw;
+              }
+              h5{
+                width: 70vw;
+              }
+              .cont-ainer{
+                height: 180vh;
+              }
+}
+@media screen and (max-width: 400px){
+  .cont-ainer{
+    height: 180vh;
+  }
+  h1{
+    font-size: 1.4rem;
+  }
+  .image1{
+   margin-top: 16vh;
+   margin-left: 8vw;
+  }
+  h5{
+    font-size: 1.2rem;
+  }
+}
+  @media screen and (max-width: 300px){
+.tittle{
+  margin-bottom: 4vh;
+}
+h1{
+  font-size: 1.1rem;
+}
+.image1{
+  margin-top: 10vh;
+  margin-left: 8vw;
+ }
+ h5{
+  font-size: 1rem;
+}
+p{
+ width: 45vw;
+}
+.image2{
+  width: 30vw;
+  height: 31vh;
+  margin-left: 62vw;
+ }
+}
