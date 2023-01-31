@@ -5,3 +5,24 @@ div {
   min-height: 1200px;
 }
 
+@media screen and (max-width: 600px){
+  div{
+    min-height: 900px;
+  }
+
+  }
+@media screen and (max-width: 400px){
+  div{
+    min-height: 900px;
+  }
+
+  }
+
+  @media screen and (max-width: 300px){
+    div{
+      min-height: 850px;
+    }
+
+    }
+
+
