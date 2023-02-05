@@ -356,14 +356,18 @@ img{
 @media screen and (max-width: 600px){
 
   img{
-    margin-top: 20vh;
+    margin-top: 10vh;
+  }
+
+  .cont{
+    margin-top: 26vh;
   }
 
   #image-nergi{
     margin-top: 9%;
     width: 73%;
     margin-left: 9%;
-    height: 40%;
+    height: 37vh;
   }
 
   .firstParagraph{
@@ -373,12 +377,13 @@ img{
   }
 
   .secoondParagraph{
-    margin-top: 15vh;
+    margin-top: 12vh;
     z-index: 0;
   }
 
   .thirdParagraph{
     margin-left: 30vw;
+    margin-top: 6vh;
     z-index: 0;
   }
 
@@ -433,7 +438,7 @@ img{
 }
 @media screen and (max-width: 400px){
   #image-nergi{
-    height: 40%;
+    height: 37vh;
   }
   .btn{
     width: 50vw;
