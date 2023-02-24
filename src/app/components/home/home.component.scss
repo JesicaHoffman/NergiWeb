@@ -124,7 +124,7 @@ h1{
 
 .tecnology-image{
   background-image: url("shapes.png");
-  height: 25vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: 80%;
   margin-left: 21%;
@@ -435,6 +435,11 @@ img{
     padding-top: 4vh;
   }
 
+  .tecnology-image{
+    height: 45vh;
+
+  }
+
 }
 @media screen and (max-width: 400px){
   #image-nergi{
@@ -446,6 +451,7 @@ img{
   .tecnology-image{
     width: 90vw;
     margin-left: 15%;
+    height: 25vh;
   }
 
   h1{
