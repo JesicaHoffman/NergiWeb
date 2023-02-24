@@ -4,48 +4,11 @@
 }
 
 
-
-h1{
-  color: #00CE88;
-  font-weight: 800;
-  display: inline-block;
-  position: absolute;
-  margin-left: 2vw;
-  z-index: 0;
-}
-
-.line{
-  height: 2px;
-  background-color: #00CE88;
-  width: 70%;
-  display: inline-block;
-  position: absolute;
-  margin-top: 1vh;
-  z-index: 0;
-}
-
-.image1{
-  margin-left: 12vw;
-  height: 35vh;
-  margin-top: 12vh;
-}
-
-.image2{
-  margin-left: 74vw;
-  height: 35vh;
-  margin-top: 12vh;
-}
-
 p, h5{
   color: white;
 }
 
-p{
-  font-size: 1vw;
-  font-style: normal;
-  width: 26vw;
-  font-weight: 300;
-}
+
 
 
 .tittle{
@@ -59,29 +22,7 @@ p{
   margin-bottom: 15vh;
 }
 
-.h1-2{
-  margin-left: 46vw;
-}
 
-.h1-3{
-  margin-left: 22.5vw;
-}
-
-.image3{
-  height: 20vh;
-}
-
-.second{
-  width: 10vw;
-}
-
-.bloque2{
-  height: 65vh;
-}
-
-.image1-copy{
-  display: none;
-}
 
 .companies{
   width: 100%;
@@ -89,31 +30,60 @@ p{
   height: 50vh;
 }
 
-.text{
-  width: 50vw;
-  display: inline-block;
-  padding-left: 10vw;
-  vertical-align: initial;
+.companies-min{
+  width: 100%;
+  height: 20vh;
 }
 
-.imageGetty{
-  width: 35vw;
+.text{
+  width: 50%;
   display: inline-block;
-  vertical-align: initial;
-  height: 90%;
+  padding-left: 10vw;
+  height: 45vh;
+  margin-top: 5vh;
 }
+
+
+.imageGetty{
+  width: 40%;
+  display: inline-block;
+  height: 45vh;
+  margin-left: 10%;
+  vertical-align: top;
+}
+
+
+
 
 .button-companies{
   border: 2px solid white;
   border-radius: 15px;
-  width: 20%;
+  width: 12vw;
   text-align: center;
   font-weight: 900;
+  height: 5vh;
+  font-size: 1.4vw;
+  padding-top: 0.3%;
+}
+
+.button-companies-min{
+  color: #00CF89;
+  width: 12vw;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.4vw;
+}
+
+
+.line{
+  background-color: #00CF89;
+  width: 12vw;
+  height: 0.3vh;
 }
 
 .subtittle{
   color: #606060;
-  font-size: 0.8vw;
+  font-size: 1vw;
   padding-left: 5vw;
   font-weight: bold;
 }
@@ -121,7 +91,7 @@ p{
 .text-companie{
   color: #606060;
   padding-left: 5vw;
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 
 @media screen and (max-width: 1280px){

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./works.component.css']
 })
 export class WorksComponent implements OnInit {
+   hide: boolean = false;
 
   constructor() { }
 
@@ -15,6 +16,7 @@ export class WorksComponent implements OnInit {
       left: 0,
       behavior: 'smooth'
 });
-  }
+
+}
 
 }
