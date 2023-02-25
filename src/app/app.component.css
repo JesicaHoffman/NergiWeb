@@ -2,7 +2,7 @@ div {
  margin: 0px;
   width: 100%;
   background-color: #272727;
-  min-height: 1200px;
+  min-height: 1600px;
 }
 
 @media screen and (max-width: 600px){
