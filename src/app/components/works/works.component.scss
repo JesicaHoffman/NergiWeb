@@ -27,12 +27,100 @@ p, h5{
 .companies{
   width: 100%;
   background-color: #00CF89;
-  height: 50vh;
+  opacity: 0;
+  height: 0vh;
+  pointer-events: none;
+  overflow: hidden;
+  transition: all .5s ease;
+  &.activo{
+    display: flex;
+    opacity: 1;
+    height: 50vh;
+    pointer-events: auto;
+  }
+  &.inactivo{
+    display: none;
+  }
+
+}
+
+.companies1{
+  width: 100%;
+  background-color: #00CF89;
+  opacity: 0;
+  height: 0vh;
+  pointer-events: none;
+  overflow: hidden;
+  transition: all .5s ease;
+  &.activo{
+    display: flex;
+    opacity: 1;
+    height: 50vh;
+    pointer-events: auto;
+  }
+  &.inactivo{
+    display: none;
+  }
+
+}
+
+.companies2{
+  width: 100%;
+  background-color: #00CF89;
+  opacity: 0;
+  height: 0vh;
+  pointer-events: none;
+  overflow: hidden;
+  transition: all .5s ease;
+  &.activo{
+    display: flex;
+    opacity: 1;
+    height: 50vh;
+    pointer-events: auto;
+  }
+  &.inactivo{
+    display: none;
+  }
+
 }
 
 .companies-min{
   width: 100%;
   height: 20vh;
+  cursor: pointer;
+  &.activo{
+    display: flex;
+    height: 20vh;
+  }
+  &.inactivo{
+    display: none;
+  }
+}
+
+.companies-min1{
+  width: 100%;
+  height: 20vh;
+  cursor: pointer;
+  &.activo{
+    display: flex;
+    height: 20vh;
+  }
+  &.inactivo{
+    display: none;
+  }
+}
+
+.companies-min2{
+  width: 100%;
+  height: 20vh;
+  cursor: pointer;
+  &.activo{
+    display: flex;
+    height: 20vh;
+  }
+  &.inactivo{
+    display: none;
+  }
 }
 
 .text{
@@ -64,6 +152,31 @@ p, h5{
   height: 5vh;
   font-size: 1.4vw;
   padding-top: 0.3%;
+  cursor: pointer;
+}
+
+.button-companies1{
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 12vw;
+  text-align: center;
+  font-weight: 900;
+  height: 5vh;
+  font-size: 1.4vw;
+  padding-top: 0.3%;
+  cursor: pointer;
+}
+
+.button-companies2{
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 12vw;
+  text-align: center;
+  font-weight: 900;
+  height: 5vh;
+  font-size: 1.4vw;
+  padding-top: 0.3%;
+  cursor: pointer;
 }
 
 .button-companies-min{
