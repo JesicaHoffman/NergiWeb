@@ -11,13 +11,13 @@ import * as AOS from 'aos';
   animations: [
     slideInAnimation,
     // animation triggers go here
-  ]
+  ],
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   title = 'NergiWeb';
   langs: string[] = [];
 
-  constructor(private translate: TranslateService){
+  constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
     translate.use('en');
     translate.addLangs(['en', 'es']);
@@ -25,22 +25,20 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-      AOS.init();
-      window.addEventListener('load', AOS.refresh)
+    AOS.init();
+    window.addEventListener('load', AOS.refresh);
   }
 
   onActivate() {
     window.scroll({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-     });
-
- }
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
 
   prepareRoute(outlet: RouterOutlet) {
     ///this.onActivate();
-     // return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
-
+    // return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
 }

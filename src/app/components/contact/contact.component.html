@@ -1,10 +1,11 @@
 <div *ngIf="!isloading" class="cont-ainer">
   <div>
-    <h1>{{"Lets Connect for a Successful Product Journey." | translate}}</h1>
+    <h1>{{ "Lets Connect for a Successful Product Journey." | translate }}</h1>
   </div>
 
   <form [formGroup]="form" id="form" (submit)="handlesubmit($event)">
-    <label for="nombre">{{"Name" | translate}}</label><br />
+    <label for="nombre">{{ "Name" | translate }}</label
+    ><br />
     <input class="inputActivo" type="text" formControlName="nombre" />
     <br />
     <br />
@@ -12,25 +13,29 @@
     <input class="inputActivo" type="email" formControlName="email" />
     <br />
     <br />
-    <label for="telefono">{{"Phone number" | translate}}</label><br />
+    <label for="telefono">{{ "Phone number" | translate }}</label
+    ><br />
     <input class="inputActivo" type="text" formControlName="telefono" />
     <br />
     <br />
-    <label for="mensaje">{{"Message" | translate}}</label><br />
+    <label for="mensaje">{{ "Message" | translate }}</label
+    ><br />
     <input class="inputActivo" formControlName="mensaje" />
     <br />
     <br /><br />
-    <button class="btn" type="submit">{{"Get in touch" | translate}}</button>
+    <button class="btn" type="submit">{{ "Get in touch" | translate }}</button>
     <br /><br />
     <div *ngIf="success" class="alertsuccess">
-      {{"Message sent successfully" | translate}}
+      {{ "Message sent successfully" | translate }}
     </div>
-    <div *ngIf="error" class="error">{{"You must complete all fields" | translate}}</div>
-      <div *ngIf="emailError" class="error">{{"You must enter a valid email" | translate}}</div>
+    <div *ngIf="error" class="error">
+      {{ "You must complete all fields" | translate }}
+    </div>
+    <div *ngIf="emailError" class="error">
+      {{ "You must enter a valid email" | translate }}
+    </div>
   </form>
   <br />
-
-
 </div>
 
 <div *ngIf="isloading" class="cont-ainer">

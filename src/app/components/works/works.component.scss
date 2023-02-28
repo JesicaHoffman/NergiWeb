@@ -1,17 +1,14 @@
-.cont-ainer{
+.cont-ainer {
   max-width: 100vw;
   margin-top: 6vh;
 }
 
-
-p, h5{
+p,
+h5 {
   color: white;
 }
 
-
-
-
-.tittle{
+.tittle {
   color: white;
   width: 98vw;
   margin-top: 30vh;
@@ -22,115 +19,110 @@ p, h5{
   margin-bottom: 15vh;
 }
 
-
-
-.companies{
+.companies {
   width: 100%;
-  background-color: #00CF89;
+  background-color: #00cf89;
   opacity: 0;
   height: 0vh;
   pointer-events: none;
   overflow: hidden;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     opacity: 1;
     height: 50vh;
     pointer-events: auto;
   }
-  &.inactivo{
+  &.inactivo {
     display: none;
   }
-
 }
 
-.companies1{
+.companies1 {
   width: 100%;
-  background-color: #00CF89;
+  background-color: #00cf89;
   opacity: 0;
   height: 0vh;
   pointer-events: none;
   overflow: hidden;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     opacity: 1;
     height: 50vh;
     pointer-events: auto;
   }
-  &.inactivo{
+  &.inactivo {
     display: none;
   }
-
 }
 
-.companies2{
+.companies2 {
   width: 100%;
-  background-color: #00CF89;
+  background-color: #00cf89;
   opacity: 0;
   height: 0vh;
   pointer-events: none;
   overflow: hidden;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     opacity: 1;
     height: 50vh;
     pointer-events: auto;
   }
-  &.inactivo{
+  &.inactivo {
     display: none;
   }
-
 }
 
-.companies-min{
+.companies-min {
   width: 100%;
   height: 20vh;
   opacity: 1;
   cursor: pointer;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     height: 20vh;
   }
-  &.inactivo{
+  &.inactivo {
     opacity: 0;
     height: 0vh;
   }
 }
 
-.companies-min1{
+.companies-min1 {
   width: 100%;
   height: 20vh;
   cursor: pointer;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     height: 20vh;
   }
-  &.inactivo{
+  &.inactivo {
     opacity: 0;
     height: 0vh;
   }
 }
 
-.companies-min2{
+.companies-min2 {
   width: 100%;
   height: 20vh;
   cursor: pointer;
-  transition: all .5s ease;
-  &.activo{
+  transition: all 0.5s ease;
+  &.activo {
     display: flex;
     height: 20vh;
   }
-  &.inactivo{
+  &.inactivo {
     opacity: 0;
     height: 0vh;
   }
 }
 
-.text{
+.text {
   width: 50%;
   display: inline-block;
   padding-left: 10vw;
@@ -138,8 +130,7 @@ p, h5{
   margin-top: 5vh;
 }
 
-
-.imageGetty{
+.imageGetty {
   width: 40%;
   display: inline-block;
   height: 45vh;
@@ -147,10 +138,7 @@ p, h5{
   vertical-align: top;
 }
 
-
-
-
-.button-companies{
+.button-companies {
   border: 2px solid white;
   border-radius: 15px;
   width: 12vw;
@@ -162,7 +150,7 @@ p, h5{
   cursor: pointer;
 }
 
-.button-companies1{
+.button-companies1 {
   border: 2px solid white;
   border-radius: 15px;
   width: 12vw;
@@ -174,7 +162,7 @@ p, h5{
   cursor: pointer;
 }
 
-.button-companies2{
+.button-companies2 {
   border: 2px solid white;
   border-radius: 15px;
   width: 12vw;
@@ -186,130 +174,126 @@ p, h5{
   cursor: pointer;
 }
 
-.button-companies-min{
-  color: #00CF89;
+.button-companies-min {
+  color: #00cf89;
   width: 12vw;
   text-align: center;
   font-weight: 900;
   font-size: 1.4vw;
 }
 
-
-.line{
-  background-color: #00CF89;
+.line {
+  background-color: #00cf89;
   width: 12vw;
   height: 0.3vh;
 }
 
-.subtittle{
+.subtittle {
   color: #606060;
   font-size: 1vw;
   padding-left: 5vw;
   font-weight: bold;
 }
 
-.text-companie{
+.text-companie {
   color: #606060;
   padding-left: 5vw;
   font-size: 1vw;
 }
 
-@media screen and (max-width: 1280px){
-
-
+@media screen and (max-width: 1280px) {
 }
-@media screen and (max-width: 970px){
-.tittle{
-  margin-bottom: 10vh;
+@media screen and (max-width: 970px) {
+  .tittle {
+    margin-bottom: 10vh;
   }
 
-  p{
+  p {
     font-size: 1.5vw;
-    }
+  }
 
-    .image1{
-     margin-top: 14vh;
-      }
+  .image1 {
+    margin-top: 14vh;
+  }
 }
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 767px) {
 }
-@media screen and (max-width: 600px){
-  .tittle{
+@media screen and (max-width: 600px) {
+  .tittle {
     font-size: 6vw;
     margin-bottom: 7vh;
-    }
-    .bloque2{
-     height: 52vh;
-      }
-    .image1{
-      height: 30vh;
-      }
-      h1{
-        font-size: 2.2rem;
-        }
-        h5{
-          font-size: 1.5rem;
-          }
-          p{
-            font-size: 0.7rem;
-            width: 36vw;
-            }
-            .h1-2{
-              margin-left: 16vw;
-              }
-              .second{
-                width: 50vw;
-                }
-                .image2 {
-                  margin-left: 55vw;
-margin-top: 9vh;
-              }
-              .h1-3{
-                margin-left: 16vw;
-              }
-              h5{
-                width: 70vw;
-              }
-              .cont-ainer{
-                height: 180vh;
-              }
-}
-@media screen and (max-width: 400px){
-  .cont-ainer{
+  }
+  .bloque2 {
+    height: 52vh;
+  }
+  .image1 {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.7rem;
+    width: 36vw;
+  }
+  .h1-2 {
+    margin-left: 16vw;
+  }
+  .second {
+    width: 50vw;
+  }
+  .image2 {
+    margin-left: 55vw;
+    margin-top: 9vh;
+  }
+  .h1-3 {
+    margin-left: 16vw;
+  }
+  h5 {
+    width: 70vw;
+  }
+  .cont-ainer {
     height: 180vh;
   }
-  h1{
+}
+@media screen and (max-width: 400px) {
+  .cont-ainer {
+    height: 180vh;
+  }
+  h1 {
     font-size: 1.4rem;
   }
-  .image1{
-   margin-top: 16vh;
-   margin-left: 8vw;
+  .image1 {
+    margin-top: 16vh;
+    margin-left: 8vw;
   }
-  h5{
+  h5 {
     font-size: 1.2rem;
   }
 }
-  @media screen and (max-width: 300px){
-.tittle{
-  margin-bottom: 4vh;
-}
-h1{
-  font-size: 1.1rem;
-}
-.image1{
-  margin-top: 10vh;
-  margin-left: 8vw;
- }
- h5{
-  font-size: 1rem;
-}
-p{
- width: 45vw;
-}
-.image2{
-  width: 30vw;
-  height: 31vh;
-  margin-left: 62vw;
- }
+@media screen and (max-width: 300px) {
+  .tittle {
+    margin-bottom: 4vh;
+  }
+  h1 {
+    font-size: 1.1rem;
+  }
+  .image1 {
+    margin-top: 10vh;
+    margin-left: 8vw;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    width: 45vw;
+  }
+  .image2 {
+    width: 30vw;
+    height: 31vh;
+    margin-left: 62vw;
+  }
 }

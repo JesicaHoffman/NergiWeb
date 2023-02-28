@@ -15,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-export function createTranslateLoader(http: HttpClient){
+export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 @NgModule({
@@ -29,21 +29,42 @@ export function createTranslateLoader(http: HttpClient){
     AboutComponent,
     WorksComponent,
   ],
-  imports: [BrowserModule, ReactiveFormsModule, HttpClientModule, BrowserAnimationsModule,
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [HttpClient]
-      }
+        useFactory: createTranslateLoader,
+        deps: [HttpClient],
+      },
     }),
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, data: {animation: 'HomePage'}},
-      { path: 'contact', component: ContactComponent, data: {animation: 'ContactPage'} },
-      { path: 'about', component: AboutComponent, data: {animation: 'AboutPage'} },
-      { path: 'works', component: WorksComponent, data: {animation: 'WorksPage'}},
-      { path: 'services', component: ServicesComponent, data: {animation: 'ServicesPage'}},
-    ])],
+      { path: '', component: HomeComponent, data: { animation: 'HomePage' } },
+      {
+        path: 'contact',
+        component: ContactComponent,
+        data: { animation: 'ContactPage' },
+      },
+      {
+        path: 'about',
+        component: AboutComponent,
+        data: { animation: 'AboutPage' },
+      },
+      {
+        path: 'works',
+        component: WorksComponent,
+        data: { animation: 'WorksPage' },
+      },
+      {
+        path: 'services',
+        component: ServicesComponent,
+        data: { animation: 'ServicesPage' },
+      },
+    ]),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

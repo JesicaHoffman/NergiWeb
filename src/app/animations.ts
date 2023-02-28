@@ -1,151 +1,121 @@
-import { animate, animateChild, group, query, style, transition, trigger } from "@angular/animations";
+import {
+  animate,
+  animateChild,
+  group,
+  query,
+  style,
+  transition,
+  trigger,
+} from '@angular/animations';
 
-export const slideInAnimation =
-  trigger('routeAnimations', [
-    transition('HomePage => ContactPage',[
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('500ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('500ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
+export const slideInAnimation = trigger('routeAnimations', [
+  transition('HomePage => ContactPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
     ]),
-    transition('HomePage => WorksPage', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          opacity: '50%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%',opacity: '100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('200ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('200ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
+    query(':enter', [style({ left: '-100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('500ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('500ms ease-out', style({ opacity: '100%' }))]),
     ]),
-    transition('HomePage => AboutPage', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('500ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('500ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
+    query(':enter', animateChild()),
+  ]),
+  transition('HomePage => WorksPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        opacity: '50%',
+      }),
     ]),
-    transition('WorksPage <=> AboutPage', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('500ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('500ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
+    query(':enter', [style({ left: '-100%', opacity: '100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('200ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('200ms ease-out', style({ opacity: '100%' }))]),
     ]),
-    transition('WorksPage <=> ContactPage', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('500ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('500ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
+    query(':enter', animateChild()),
+  ]),
+  transition('HomePage => AboutPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
     ]),
-    transition('ContactPage <=> AboutPage', [
-      style({ position: 'relative' }),
-      query(':enter, :leave', [
-        style({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%'
-        })
-      ]),
-      query(':enter', [
-        style({ left: '-100%' })
-      ]),
-      query(':leave', animateChild()),
-      group([
-        query(':leave', [
-          animate('500ms ease-out', style({ opacity: '50%' }))
-        ]),
-        query(':enter', [
-          animate('500ms ease-out', style({ opacity: '100%' }))
-        ])
-      ]),
-      query(':enter', animateChild()),
-    ])
-  ]);
-
+    query(':enter', [style({ left: '-100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('500ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('500ms ease-out', style({ opacity: '100%' }))]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
+  transition('WorksPage <=> AboutPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
+    ]),
+    query(':enter', [style({ left: '-100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('500ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('500ms ease-out', style({ opacity: '100%' }))]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
+  transition('WorksPage <=> ContactPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
+    ]),
+    query(':enter', [style({ left: '-100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('500ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('500ms ease-out', style({ opacity: '100%' }))]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
+  transition('ContactPage <=> AboutPage', [
+    style({ position: 'relative' }),
+    query(':enter, :leave', [
+      style({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+      }),
+    ]),
+    query(':enter', [style({ left: '-100%' })]),
+    query(':leave', animateChild()),
+    group([
+      query(':leave', [animate('500ms ease-out', style({ opacity: '50%' }))]),
+      query(':enter', [animate('500ms ease-out', style({ opacity: '100%' }))]),
+    ]),
+    query(':enter', animateChild()),
+  ]),
+]);

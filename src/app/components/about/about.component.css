@@ -1,5 +1,4 @@
-
-.cont-ainer{
+.cont-ainer {
   max-width: 100vw;
   height: 130vh;
   margin-left: 6%;
@@ -7,12 +6,12 @@
   margin-top: 150px;
 }
 
-.contenedor{
+.contenedor {
   max-width: 100vw;
   height: 220vh;
 }
 
-.tittle{
+.tittle {
   font-style: normal;
   color: white;
   margin-top: 30vh;
@@ -23,32 +22,32 @@
   margin-bottom: 15vh;
 }
 
-h1{
-  color: #00CE88;
+h1 {
+  color: #00ce88;
   font-weight: 900;
   display: inline-block;
   margin-left: 16vw;
   width: 40vw;
 }
 
-.line{
+.line {
   height: 2px;
-  background-color: #00CE88;
+  background-color: #00ce88;
   width: 20%;
   display: inline-block;
   margin-left: 16vw;
   margin-bottom: 4vh;
 }
 
-.paragraph{
-  color: #606060;;
+.paragraph {
+  color: #606060;
   font-size: 1vw;
   font-weight: 300;
   margin-left: 16vw;
   padding-right: 2vw;
 }
 
-.paragraph2{
+.paragraph2 {
   color: white;
   font-size: 1.5vw;
   font-weight: 400;
@@ -56,7 +55,7 @@ h1{
   padding-top: 2vw;
 }
 
-.bloque1{
+.bloque1 {
   display: inline-block;
   width: 60vw;
   background-color: white;
@@ -67,14 +66,14 @@ h1{
   padding-bottom: 5vh;
 }
 
-.image1{
+.image1 {
   height: 30vh;
   width: 9vw;
   position: absolute;
   margin-left: 30vw;
 }
 
-.bloque2{
+.bloque2 {
   background-color: #272727;
   width: 70vw;
   height: 50vh;
@@ -83,10 +82,10 @@ h1{
   position: absolute;
 }
 
-.bloque3{
+.bloque3 {
   width: 70vw;
   height: 25vh;
-  background-color: #00CE88;
+  background-color: #00ce88;
   margin-top: 82vh;
   margin-left: 29vw;
   border-top-left-radius: 5vw;
@@ -94,7 +93,7 @@ h1{
   margin-bottom: 10vh;
 }
 
-.image2{
+.image2 {
   height: 45vh;
   width: 25vw;
   position: absolute;
@@ -102,7 +101,7 @@ h1{
   margin-top: 48vh;
 }
 
-.texto1{
+.texto1 {
   color: white;
   width: 87%;
   margin-top: 7vh;
@@ -110,164 +109,174 @@ h1{
   font-size: 1.1vw;
 }
 
-.texto2{
-  color: #00CF89;
+.texto2 {
+  color: #00cf89;
   width: 87%;
   margin-top: 3vh;
   margin-left: 3vw;
   font-size: 1.1vw;
 }
 
-.image3{
+.image3 {
   width: 100%;
 }
 
-.text2{
- color: white;
- font-size: 1.1vw;
- width: 30vw;
- margin-left: 40vw;
+.text2 {
+  color: white;
+  font-size: 1.1vw;
+  width: 30vw;
+  margin-left: 40vw;
 }
 
-.text3{
-  color: #00CE88;
+.text3 {
+  color: #00ce88;
   font-size: 1.1vw;
   width: 50vw;
   margin-left: 20vw;
- }
+}
 
-.image4{
+.image4 {
   width: 27vw;
   position: absolute;
   margin-left: 12vw;
 }
 
-.circle{
+.circle {
   width: 20vw;
   position: absolute;
   margin-top: 10vh;
 }
 
-@media screen and (max-width: 1280px){
-  .paragraph{
+@media screen and (max-width: 1280px) {
+  .paragraph {
     font-size: 1.5vw;
   }
-  .texto1{
+
+  .paragraph2 {
+    padding-top: 1.8vh;
+  }
+  .texto1 {
     font-size: 1.4vw;
   }
-  .texto2{
+  .texto2 {
     font-size: 1.4vw;
   }
-  .tittle{
+  .tittle {
     margin-bottom: 13vh;
-    }
-}
-@media screen and (max-width: 970px){
-  .tittle{
-    margin-bottom: 10vh;
-    }
-
-}
-@media screen and (max-width: 767px){
-h1{
-  font-size: 2rem;
-  width: 55vw;
-}
-.image1{
-  height: 25vh;
   }
-  .paragraph{
- font-size: 1.8vw;
-    }
-    .bloque2{
-      margin-top: 15vh;
-      width: 60vw;
-      margin-left: 23vw;
-    }
-    .texto1{
-      font-size: 1.8vw;
-    }
-    .texto2{
-      font-size: 1.8vw;
-    }
-.image2{
-  width: 23vw;
-  height: 28vh;
-}
 
+  .contenedor {
+    height: 250vh;
+  }
+
+  .bloque1 {
+    width: 80vw;
+  }
+
+  .bloque2 {
+    margin-bottom: 10vh;
+  }
 }
-@media screen and (max-width: 600px){
-  .tittle{
+@media screen and (max-width: 970px) {
+  .tittle {
+    margin-bottom: 10vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+    width: 55vw;
+  }
+  .image1 {
+    height: 25vh;
+  }
+  .paragraph {
+    font-size: 1.8vw;
+  }
+  .bloque2 {
+    margin-top: 15vh;
+    width: 60vw;
+    margin-left: 23vw;
+  }
+  .texto1 {
+    font-size: 1.8vw;
+  }
+  .texto2 {
+    font-size: 1.8vw;
+  }
+  .image2 {
+    width: 23vw;
+    height: 28vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tittle {
     font-size: 6vw;
     margin-bottom: 7vh;
-    }
-    h1{
-      width: 60vw;
-    }
-    .paragraph{
-      font-size: 2.6vw;
-    }
-    .image1{
-      margin-left: 26vw;
-      width: 14vw;
-      height: 20vh;
-    }
-    .bloque2{
-      margin-top: 10vh;
-      margin-left: 18vw;
-      width: 70vw;
-      height: 40vh;
-    }
-    .texto1{
-      font-size: 2.6vw;
-      margin-top: 4.5vh;
-      margin-left: 4vw;
-    }
-    .texto2{
-      font-size: 2.6vw;
-      margin-left: 4vw;
-    }
-    .image2{
-      margin-top: 45vh;
-      height: 24vh;
-      width: 40vw;
-      margin-left: 0vw;
-    }
-    .contenedor{
-      height: 120vh;
-    }
-
+  }
+  h1 {
+    width: 60vw;
+  }
+  .paragraph {
+    font-size: 2.6vw;
+  }
+  .image1 {
+    margin-left: 26vw;
+    width: 14vw;
+    height: 20vh;
+  }
+  .bloque2 {
+    margin-top: 10vh;
+    margin-left: 18vw;
+    width: 70vw;
+    height: 40vh;
+  }
+  .texto1 {
+    font-size: 2.6vw;
+    margin-top: 4.5vh;
+    margin-left: 4vw;
+  }
+  .texto2 {
+    font-size: 2.6vw;
+    margin-left: 4vw;
+  }
+  .image2 {
+    margin-top: 45vh;
+    height: 24vh;
+    width: 40vw;
+    margin-left: 0vw;
+  }
+  .contenedor {
+    height: 120vh;
+  }
 }
-@media screen and (max-width: 400px){
-.bloque2{
-  height: 45vh;
+@media screen and (max-width: 400px) {
+  .bloque2 {
+    height: 45vh;
+  }
 }
-
+@media screen and (max-width: 300px) {
+  .tittle {
+    margin-bottom: 4vh;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .paragraph {
+    font-size: 3.6vw;
+  }
+  .texto1 {
+    font-size: 3.4vw;
+    margin-top: 3.6vh;
+  }
+  .texto2 {
+    font-size: 3.4vw;
+  }
+  .bloque2 {
+    height: 55vh;
+    margin-top: 5vh;
+  }
+  .image2 {
+    margin-top: 56vh;
+  }
 }
-  @media screen and (max-width: 300px){
-    .tittle{
-      margin-bottom: 4vh;
-    }
-    h1{
-      font-size: 1.5rem;
-    }
-    .paragraph{
-      font-size: 3.6vw;
-    }
-    .texto1{
-      font-size: 3.4vw;
-      margin-top: 3.6vh;
-    }
-    .texto2{
-      font-size: 3.4vw;
-    }
-    .bloque2{
-      height: 55vh;
-      margin-top: 5vh;
-    }
-    .image2{
-      margin-top: 56vh;
-    }
-}
-
-

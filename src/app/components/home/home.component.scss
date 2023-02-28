@@ -4,7 +4,7 @@
   max-width: 100vw;
 }
 
-.contenedor{
+.contenedor {
   background-image: url("fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,16 +19,16 @@
   margin-top: 27vh;
 }
 
-#image-nergi{
+#image-nergi {
   display: none;
 }
 
-.works{
+.works {
   text-align: center;
   margin-bottom: 100px;
 }
 
-.work{
+.work {
   width: 22%;
   height: 52vh;
   color: white;
@@ -37,10 +37,9 @@
   border-radius: 5vw;
   display: inline-block;
   margin-left: 50px;
-
 }
 
-.work1{
+.work1 {
   width: 22%;
   height: 52vh;
   color: white;
@@ -50,11 +49,11 @@
   display: inline-block;
 }
 
-#img-works{
+#img-works {
   width: 50vw;
   margin-left: 23%;
 }
-.firstParagraph{
+.firstParagraph {
   color: white;
   width: 30vw;
   font-size: 4vw;
@@ -66,7 +65,7 @@
   height: 12vh;
 }
 
-.secoondParagraph{
+.secoondParagraph {
   color: white;
   font-size: 4vw;
   display: inline-block;
@@ -75,14 +74,13 @@
   height: 1vh;
 }
 
-.thirdParagraph{
+.thirdParagraph {
   color: white;
   font-size: 4vw;
   margin-left: 37vw;
   font-weight: 300;
   line-height: 118px;
 }
-
 
 #ilustracion {
   height: 70vh;
@@ -91,10 +89,10 @@
   margin-left: 18vw;
 }
 
-.btn{
+.btn {
   width: 20vw;
   height: 8vh;
-  background-color: #00CF89;
+  background-color: #00cf89;
   margin-bottom: 100px;
   color: #272727;
   border-radius: 26px;
@@ -104,25 +102,25 @@
   cursor: pointer;
 }
 
-.button-more{
+.button-more {
   text-align: center;
 }
 
-h1{
+h1 {
   color: white;
   font-weight: 300;
   font-size: 4vw;
   line-height: 4vw;
 }
 
-.tecnologies{
+.tecnologies {
   width: 80%;
   margin-left: 5%;
   margin-top: 10;
   padding-top: 10vh;
 }
 
-.tecnology-image{
+.tecnology-image {
   background-image: url("shapes.png");
   height: 60vh;
   background-repeat: no-repeat;
@@ -130,68 +128,67 @@ h1{
   margin-left: 21%;
 }
 
-.tittle{
-  color: #00CE88;
+.tittle {
+  color: #00ce88;
   font-weight: 300;
   margin-top: 40px;
   padding-bottom: 100px;
   text-align: center;
 }
 
-img{
+img {
   width: 28vw;
   margin-left: 25vw;
 }
 
-.box1{
- width: 20vw;
- display: inline-block;
- margin-left: 6vw;
- border: 4px solid white;
- border-radius: 5vw;
- height: 50vh;
- margin-top: 100px;
- margin-bottom: 100px;
- background-color: #272727;
+.box1 {
+  width: 20vw;
+  display: inline-block;
+  margin-left: 6vw;
+  border: 4px solid white;
+  border-radius: 5vw;
+  height: 50vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #272727;
 }
-.johndeere{
+.johndeere {
   width: 10vw;
   height: 12vh;
   margin-left: 6%;
   margin-top: 17vh;
 }
 
-.woza{
+.woza {
   width: 7vw;
   height: 12vh;
   margin-left: 4%;
   margin-top: 17vh;
 }
 
-.corteva{
+.corteva {
   width: 9vw;
   height: 12vh;
   margin-left: 6%;
   margin-top: 17vh;
 }
 
-.paragraph{
+.paragraph {
   color: white;
   font-size: 1.3vw;
   font-weight: 300;
   line-height: 1.2;
-
 }
 
-.lines{
+.lines {
   height: 2px;
-  background-color: #00CE88;
+  background-color: #00ce88;
   width: 20%;
   display: inline-block;
 }
 
-.technologies{
-  color: #00CE88;
+.technologies {
+  color: #00ce88;
   font-weight: 600;
   display: inline-block;
   margin-left: 16vw;
@@ -199,85 +196,92 @@ img{
   font-size: 2vw;
 }
 
-.bloque1{
+.bloque1 {
   display: inline-block;
   width: 50vw;
   margin-bottom: 12vh;
 }
 
-.bloque2{
+.bloque2 {
   display: inline-block;
   width: 50vw;
   margin-left: 20vw;
   margin-bottom: 160px;
 }
 
-@media screen and (max-width: 1280px){
-  .cont{
+@media screen and (max-width: 1280px) {
+  .cont {
     background-size: contain;
     height: 70vh;
   }
 
-  .work{
+  .work {
     height: 45vh;
   }
 
-  .work1{
+  .works {
+    height: 55vh;
+    padding-top: 7vh;
+  }
+
+  .work1 {
     height: 45vh;
   }
 
-  .johndeere{
+  .tecnology-image {
+    height: 65vh;
+  }
+
+  .johndeere {
     margin-top: 14vh;
   }
 
-  .woza{
+  .woza {
     margin-top: 14vh;
   }
 
-  .corteva{
+  .corteva {
     margin-top: 14vh;
   }
 }
-@media screen and (max-width: 970px){
-  .cont{
+@media screen and (max-width: 970px) {
+  .cont {
     height: 50vh;
   }
 
-  .work{
+  .work {
     height: 40vh;
   }
 
-  .work1{
+  .work1 {
     height: 40vh;
   }
 
-  .johndeere{
+  .johndeere {
     margin-top: 12vh;
     height: 9vh;
   }
 
-  .woza{
+  .woza {
     margin-top: 12vh;
     height: 9vh;
   }
 
-  .corteva{
+  .corteva {
     margin-top: 12vh;
     height: 9vh;
   }
-
 }
-@media screen and (max-width: 767px){
-  .cont{
+@media screen and (max-width: 767px) {
+  .cont {
     background-image: none;
   }
 
-
-  img{
+  img {
     margin-top: 12vh;
   }
 
-  #image-nergi{
+  #image-nergi {
     display: block;
     width: 50vw;
     height: 45vh;
@@ -286,7 +290,7 @@ img{
     position: absolute;
   }
 
-  .firstParagraph{
+  .firstParagraph {
     width: 40vw;
     font-size: 6vw;
     font-weight: 300;
@@ -299,7 +303,7 @@ img{
     z-index: 0;
   }
 
-  .secoondParagraph{
+  .secoondParagraph {
     font-size: 6vw;
     display: inline-block;
     font-weight: 300;
@@ -310,7 +314,7 @@ img{
     margin-top: 7vh;
   }
 
-  .thirdParagraph{
+  .thirdParagraph {
     font-size: 6vw;
     margin-left: 33vw;
     font-weight: 300;
@@ -320,82 +324,80 @@ img{
     margin-top: 2vh;
   }
 
-  .work{
+  .work {
     margin-left: 25px;
     height: 30vh;
   }
 
-  .work1{
+  .work1 {
     height: 30vh;
   }
 
-  .johndeere{
+  .johndeere {
     margin-top: 8vh;
   }
 
-  .woza{
+  .woza {
     margin-top: 8vh;
   }
 
-  .corteva{
+  .corteva {
     margin-top: 8vh;
   }
 
-  .works{
+  .works {
     margin-bottom: 50px;
   }
 
-  .btn{
+  .btn {
     margin-bottom: 50px;
   }
-  .tittle{
+  .tittle {
     padding-bottom: 50px;
   }
-
 }
-@media screen and (max-width: 600px){
-
-  img{
+@media screen and (max-width: 600px) {
+  img {
     margin-top: 10vh;
   }
 
-  .cont{
+  .cont {
     margin-top: 26vh;
   }
 
-  #image-nergi{
+  #image-nergi {
     margin-top: 9%;
     width: 73%;
     margin-left: 9%;
     height: 37vh;
   }
 
-  .firstParagraph{
+  .firstParagraph {
     margin-top: 8vh;
     margin-left: 35%;
     z-index: 0;
   }
 
-  .secoondParagraph{
+  .secoondParagraph {
     margin-top: 12vh;
     z-index: 0;
   }
 
-  .thirdParagraph{
+  .thirdParagraph {
     margin-left: 30vw;
     margin-top: 6vh;
     z-index: 0;
   }
 
-  .tittle{
+  .tittle {
     font-size: 6vw;
   }
 
-  .work{
+  .work {
     display: block;
   }
 
-  .work1{
+  .work1 {
     display: inherit;
     width: 50vw;
     margin-left: 18vw;
@@ -403,7 +405,7 @@ img{
     margin-bottom: 5vh;
   }
 
-  .work{
+  .work {
     display: inherit;
     width: 50vw;
     margin-left: 18vw;
@@ -411,58 +413,56 @@ img{
     margin-bottom: 5vh;
   }
 
-  .johndeere{
+  .johndeere {
     margin-top: 7vh;
     width: 25vw;
   }
 
-  .woza{
+  .woza {
     margin-top: 7vh;
     width: 22vw;
   }
 
-  .corteva{
+  .corteva {
     margin-top: 7vh;
     width: 25vw;
   }
 
-  .btn{
+  .btn {
     width: 30vw;
     height: 6vh;
   }
 
-  .tecnologies{
+  .tecnologies {
     padding-top: 4vh;
   }
 
-  .tecnology-image{
+  .tecnology-image {
     height: 45vh;
-
   }
-
 }
-@media screen and (max-width: 400px){
-  #image-nergi{
+@media screen and (max-width: 400px) {
+  #image-nergi {
     height: 37vh;
   }
-  .btn{
+  .btn {
     width: 50vw;
   }
-  .tecnology-image{
+  .tecnology-image {
     width: 90vw;
     margin-left: 15%;
     height: 25vh;
   }
 
-  h1{
+  h1 {
     font-size: 5vw;
   }
 }
-  @media screen and (max-width: 300px){
-    #image-nergi{
-      margin-top: 9%;
-      width: 90%;
-      margin-left: 5%;
-      height: 40vh;
-    }
+@media screen and (max-width: 300px) {
+  #image-nergi {
+    margin-top: 9%;
+    width: 90%;
+    margin-left: 5%;
+    height: 40vh;
+  }
 }

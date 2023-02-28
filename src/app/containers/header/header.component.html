@@ -3,35 +3,56 @@
     <img routerLink="" src="../assets/images/nergi-logo-header.png" alt="200" />
     <ul class="nav-menu">
       <div class="item">
-        <li class="nav-menu-item" routerLink="">{{"navbar.weare" | translate}}</li>
+        <li class="nav-menu-item" routerLink="">
+          {{ "navbar.weare" | translate }}
+        </li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="works">{{"navbar.ourworks" | translate}}</li>
+        <li class="nav-menu-item" routerLink="works">
+          {{ "navbar.ourworks" | translate }}
+        </li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="about">{{"navbar.aboutus" | translate}}</li>
+        <li class="nav-menu-item" routerLink="about">
+          {{ "navbar.aboutus" | translate }}
+        </li>
       </div>
 
       <div class="item">
-        <li class="nav-menu-item" routerLink="services">{{"navbar.our-services" | translate}}</li>
+        <li class="nav-menu-item" routerLink="services">
+          {{ "navbar.our-services" | translate }}
+        </li>
       </div>
     </ul>
-    <button class="button"> <svg class="svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-    </svg></button>
+    <button class="button">
+      <svg
+        class="svg"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="currentColor"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+        />
+      </svg>
+    </button>
     <div>
-      <h5 class="en" (click)="changeLang('en')">EN</h5>  <h5 class="es" (click)="changeLang('es')">ES</h5>
+      <h5 class="en" (click)="changeLang('en')">EN</h5>
+      <h5 class="es" (click)="changeLang('es')">ES</h5>
     </div>
   </nav>
 
   <nav class="desplegable">
     <ul class="ul">
-      <li class="li" routerLink="">{{"navbar.weare" | translate}}</li>
-      <li class="li" routerLink="works">{{"navbar.ourworks" | translate}}</li>
-      <li class="li" routerLink="about">{{"navbar.aboutus" | translate}}</li>
-      <li class="li" routerLink="services">{{"navbar.our-services" | translate}}</li>
+      <li class="li" routerLink="">{{ "navbar.weare" | translate }}</li>
+      <li class="li" routerLink="works">{{ "navbar.ourworks" | translate }}</li>
+      <li class="li" routerLink="about">{{ "navbar.aboutus" | translate }}</li>
+      <li class="li" routerLink="services">
+        {{ "navbar.our-services" | translate }}
+      </li>
     </ul>
   </nav>
 </header>
