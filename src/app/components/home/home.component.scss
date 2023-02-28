@@ -211,7 +211,6 @@ img {
 
 @media screen and (max-width: 1280px) {
   .cont {
-    background-size: contain;
     height: 70vh;
   }
 
@@ -243,10 +242,12 @@ img {
   .corteva {
     margin-top: 14vh;
   }
+
+
 }
 @media screen and (max-width: 970px) {
   .cont {
-    height: 50vh;
+    height: 60vh;
   }
 
   .work {
@@ -365,12 +366,20 @@ img {
     margin-top: 26vh;
   }
 
+  .contenedor {
+    height: 100vh;
+  }
+
   #image-nergi {
     margin-top: 9%;
     width: 73%;
     margin-left: 9%;
     height: 37vh;
   }
+
+  .tecnology-image {
+    height: 20vh;
+}
 
   .firstParagraph {
     margin-top: 8vh;
@@ -438,7 +447,7 @@ img {
   }
 
   .tecnology-image {
-    height: 45vh;
+    height: 20vh;
   }
 }
 @media screen and (max-width: 400px) {
@@ -457,6 +466,16 @@ img {
   h1 {
     font-size: 5vw;
   }
+
+  .contenedor {
+    height: 100vh;
+  }
+
+  .cont {
+    height: 50vh;
+  }
+
+
 }
 @media screen and (max-width: 300px) {
   #image-nergi {
