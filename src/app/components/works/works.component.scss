@@ -215,6 +215,48 @@ h5 {
   .image1 {
     margin-top: 14vh;
   }
+
+  .companies {
+
+    &.activo {
+      height: 30vh;
+
+    }
+
+  }
+
+  .companies1 {
+
+    &.activo {
+      height: 30vh;
+
+    }
+
+  }
+
+  .companies2 {
+
+    &.activo {
+      height: 30vh;
+
+    }
+
+  }
+  .imageGetty {
+    height: 20vh;
+  }
+
+  .button-companies {
+    height: 2vh;
+}
+
+.button-companies1 {
+  height: 2vh;
+}
+
+.button-companies2 {
+  height: 2vh;
+}
 }
 @media screen and (max-width: 767px) {
 }
@@ -256,12 +298,153 @@ h5 {
     width: 70vw;
   }
   .cont-ainer {
-    height: 180vh;
+    height: 10vh;
   }
+
+  .companies {
+
+    &.activo {
+      height: 60vh;
+      display: block;
+    }
+
+  }
+
+
+  .text {
+    width: 85%;
+    height: 20vh;
+
+}
+
+.button-companies{
+  height: 4vh;
+    width: 30vw;
+    font-size: 3.5vw;
+    padding-top: 0.4vh;
+}
+
+.subtittle {
+  font-size: 3vw;
+
+}
+
+.text-companie {
+  font-size: 2.5vw;
+  width: 80vw;
+}
+
+.imageGetty{
+  margin-top: 3vh;
+  width: 70vw;
+}
+
+.button-companies-min{
+  width: 20vw;
+  font-size: 3.5vw;
+}
+
+.line{
+  width: 20vw;
+}
+
+.companies1 {
+
+  &.activo {
+    height: 60vh;
+    display: block;
+  }
+
+}
+
+
+.text1 {
+  width: 85%;
+  height: 20vh;
+
+}
+
+.button-companies1{
+height: 4vh;
+  width: 30vw;
+  font-size: 3.5vw;
+  padding-top: 0.4vh;
+}
+
+.subtittle1 {
+font-size: 3vw;
+
+}
+
+.text-companie1 {
+font-size: 2.5vw;
+width: 80vw;
+}
+
+.imageGetty1{
+margin-top: 3vh;
+width: 70vw;
+}
+
+.button-companies-min1{
+width: 20vw;
+font-size: 3.5vw;
+}
+
+.line1{
+width: 20vw;
+}
+
+.companies2 {
+
+  &.activo {
+    height: 60vh;
+    display: block;
+  }
+
+}
+
+
+.text2{
+  width: 85%;
+  height: 20vh;
+
+}
+
+.button-companies2{
+height: 4vh;
+  width: 30vw;
+  font-size: 3.5vw;
+  padding-top: 0.4vh;
+}
+
+.subtittle2 {
+font-size: 3vw;
+
+}
+
+.text-companie2 {
+font-size: 2.5vw;
+width: 80vw;
+}
+
+.imageGetty2{
+margin-top: 3vh;
+width: 70vw;
+}
+
+.button-companies-min2{
+width: 20vw;
+font-size: 3.5vw;
+}
+
+.line2{
+width: 20vw;
+}
 }
 @media screen and (max-width: 400px) {
   .cont-ainer {
-    height: 180vh;
+    height: 10vh;
   }
   h1 {
     font-size: 1.4rem;
