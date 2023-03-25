@@ -106,6 +106,10 @@ textarea.value {
   .btn {
     margin-left: 21%;
   }
+  h1 {
+    width: 95vw;
+    font-size: 3.8vw;
+  }
 }
 @media screen and (max-width: 300px) {
 }
