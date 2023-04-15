@@ -144,12 +144,28 @@ img {
   color: #606060;
 }
 
+.h5-1-1 {
+  font-weight: 600;
+  font-size: 1.3vw;
+  width: 30vw;
+  margin-left: 13vw;
+  color: #606060;
+}
+
 .parrafo {
   width: 30vw;
   margin-left: 13vw;
   font-size: 1vw;
   color: #606060;
 }
+
+.parrafo1 {
+  width: 30vw;
+  margin-left: 13vw;
+  font-size: 1vw;
+  color: #606060;
+}
+
 
 .parrafo2 {
   width: 30vw;
@@ -181,4 +197,151 @@ img {
   .second-image {
     height: 62vh;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .tittle {
+    font-size: 6vw;
+    margin-bottom: 7vh;
+  }
+
+  .first-image{
+    width: 72vw;
+    height: 25vh;
+    display: block;
+}
+
+.bloque1 {
+  margin-bottom: 6vh;
+}
+
+br{
+  height: 0px;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.h1-1 {
+  font-size: 4vw;
+  margin-left: 0vw;
+  text-align: center;
+}
+
+.line{
+  margin-left: 30%;
+}
+
+.h2-1 {
+  font-size: 3.3vw;
+  margin-left: 0vw;
+  text-align: center;
+  margin-top: 1.4vh;
+}
+
+.second-image {
+  height: 20vh;
+}
+
+.text2 {
+  padding-top: 0vh;
+  width: 90%;
+  position: relative;
+}
+
+.text3 {
+  margin-left: 0px;
+}
+
+.h1-2 {
+  font-size: 3vw;
+  margin-left: 0vw;
+  text-align: center;
+  padding-top: 2vh;
+}
+br{
+  height: 0px;
+}
+
+.bloque2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.line2{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.third-image{
+  width: 70vw;
+  margin-left: 0px;
+}
+
+.h5-1 {
+  font-size: 3vw;
+  width: 75vw;
+  margin-left: 13vw;
+}
+
+.parrafo {
+  width: 75vw;
+  margin-left: 13vw;
+  font-size: 2.5vw;
+  margin-bottom: 7vh;
+  color: white;
+}
+
+.parrafo1 {
+  width: 75vw;
+  margin-left: 13vw;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.h5-1-1 {
+  font-size: 3vw;
+  width: 75vw;
+}
+
+.bloque3 {
+  margin-top: 50vh;
+  width: 75vw;
+  height: 20vh;
+  margin-left: 0px;
+}
+
+.cont{
+  margin-left: 4vw;
+}
+
+.h1-3 {
+  font-size: 3vw;
+}
+
+.parrafo2{
+  width: 68vw;
+  margin-left: 10vw;
+  font-size: 2.5vw;
+}
+.third-image {
+  width: 70vw;
+  margin-left: 25vw;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .parrafo1 {
+    width: 75vw;
+    margin-left: 13vw;
+    font-size: 3vw;
+    color: white;
+}
+
+
+
 }
